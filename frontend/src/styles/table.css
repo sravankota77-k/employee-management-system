@@ -1,0 +1,41 @@
+.employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.employee-table thead {
+    background: #1e293b;
+    color: white;
+}
+
+.employee-table th,
+.employee-table td {
+    padding: 16px;
+    text-align: left;
+}
+
+.employee-table tbody tr {
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.employee-table tbody tr:hover {
+    background: #f8fafc;
+}
+
+.delete-btn {
+    background: #dc2626;
+    color: white;
+    border: none;
+    padding: 8px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background: #b91c1c;
+}
